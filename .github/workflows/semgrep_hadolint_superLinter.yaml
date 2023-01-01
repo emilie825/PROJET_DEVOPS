@@ -25,6 +25,7 @@ jobs:
         env:
           # Specify the ruleset to use
           SEMGREP_RULES: p/default
+          
 
       - name: "Upload SARIF file for GitHub CodeQL"
         uses: github/codeql-action/upload-sarif@v2
